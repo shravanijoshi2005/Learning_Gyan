@@ -1,0 +1,66 @@
+local implementations- GIT
+
+git init - initialises repo
+git add - adds the file into the staging area
+git commit -m : submit changes, with a message in present tense
+git log : save point messages are seen along with a hash which uniquely identifies the changes along with author and date
+git status 
+git diff - to know the difference between last save point and recent save point
+git checkout <filename> updates the file to its last save point
+git rm --cached -r . : to remove all items from the staging area.
+git branch <branch name> - creates a new branch
+git branch - gives list of branches and the current branch in which you are.
+git checkout <branch name> - switches to the given branch
+
+GIT IGNORE:
+
+1.create a file .gitignore - echo .gitignore
+2.open the file using code .gitignore
+3.save the file
+4.add the names of the files to be ignored on individual lines
+5.Again save the file
+
+# is used for comments 
+*.extention : example : *.txt - ignores all files having txt extention
+
+
+
+
+
+
+remote implementation - GIT-HUB
+
+git is used to store ur repositories on your local device
+in order to save the repos on the internet remotely we use git hub
+
+on git hub anyone can access the repos and make changes if the repo is public 
+we need to push the local repo to remote repo
+STEP 0: create a new repo on git hub(public/pvt)
+		copy the url of the repo
+1.git remote add origin <url of your remote repo>
+//it creates a remote repo named origin and assigns the url of your git hub repo which you created. So a remote repo of name origin having GitHub url is created
+2.git push -u <remote name> <branch name>
+this links your local repo to the remote repo using the u flag
+git push -u origin main  //(pushing it to the main branch)
+
+to create a branch: git branch -m master main
+
+working directory -> staging area -> local repo -> remote repo
+		 git add	git commit 	git push
+
+untracked files apear in red
+files in the git initialised repo not added to the staging area are shown in red
+tracked files apear in green
+files in the initialised repo added to the staging area are in green
+
+CLONING - GIT CLONE
+in order to clone a remote repo into ur local machine, we use git clone
+syntax - git clone <url>
+git merge <name-of-branch>
+
+FORKING:
+Forking is making a copy of a publically available repo and storing it onto your GitHub account
+
+
+
+

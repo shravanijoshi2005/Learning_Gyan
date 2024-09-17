@@ -1,0 +1,5 @@
+cd - current directory
+dir - list working directory
+dir /a - list items in wd along with hidden files
+cls - clear screen
+echo - create new file
