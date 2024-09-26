@@ -1,0 +1,20 @@
+API - application programming interface
+API bridges the communication between different pieces of software
+REST API - its apis that follow a certain set of rules 
+https://wheretheiss.at/w/developer
+
+HTTP REQUESTS:
+
+1.HTTP - Hypertext Transfer Protocol
+GET - request the resource from the server
+      You are getting something from the server
+
+POST - You are sending a resource to a server
+
+PUT - When you want to replace a resource
+
+PATCH - Essentially you want to patch up a resource
+
+DELETE - deletes resources from the server/database
+
+npm init -y - setup npm on that directory

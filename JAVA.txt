@@ -1,0 +1,42 @@
+JAVA SCRIPT
+
+
+#ALERT:
+
+javascript console-->
+alert("Hello");-->popup window which will open up a message called hello
+
+alternative method: 
+sources-> >> arrow -> snippets -> index.js(create a new snippet) -> bottom right corner -> hit run
+
+-full version syntax: window.alert("msg");
+alert-function "msg" ; end
+> typeof(<datatype>) : gives you the data type of the entered value
+>prompt("") -> input
+>cntrl + L -> clear console;
+> string.length
+>in string concatenation use () for operations like addition/sub etc.
+> cntrl+/ --> comments entire selected section
+>slice -> varName.slice(x,y) where x is lower bound and y is upper bound
+>upper case -> varName.toUpperCase(); --> changes your string content to upper case.
+>cntrlF - find a word + hit AtoB icon + replace word + sasy replace all;
+>console.log("") -> executes in the console 
+> round of -> Math.floor(num1/num2)
+
+String Interpolation
+In JavaScript, string interpolation is a way to embed variables or expressions inside a string using template literals. Template literals are enclosed by backticks (`), and the variables or expressions are placed inside ${}.
+
+Example:
+const name = 'Peaches';
+const age = 20;
+
+console.log(`My name is ${name}, and I am ${age} years old.`);
+Backticks (`) are used instead of quotes (' or ") to create the string.
+${} is used to insert the value of a variable or expression inside the string.
+
+
+
+
+
+
+

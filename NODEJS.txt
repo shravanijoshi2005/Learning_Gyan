@@ -1,0 +1,66 @@
+				#### NODE JS ####
+
+> NodeJS is an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications
+>Nodejs uses the v8 engine - comes from chromium
+> Node Read Eval Print Loop - node repl
+(just type node in the terminal)
+	> .exit to exit the repl 
+	> cntrl c
+
+## NATIVE NODE MODULES: 
+
+set of tools that come inbuilt in node
+
+documentation link - https://nodejs.org/docs/latest-v18.x/api/fs.html#callback-example
+
+>FILE SYSTEM : Its a native node module that allows us to access the local storage
+> const fs = require("fs"); this is how to initialise the native module....inside the double quotes, write module name.
+> writeFile() -->
+ const fs = require("fs");
+fs.writeFile("message.txt","Hello from NodeJS", (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!')
+}); 
+
+creates a file called message.txt in which it is written Hello from NodeJS 
+if there is error it will throw an error 
+if there is no error, it write in the console - the file has been saved
+
+>readFile() -->
+import { readFile } from 'node:fs';
+
+readFile('filePath','utf8', (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
+ 
+//reads file mentioned in the path , reads the data and writes in the console 
+output is in the buffer format is not specified 
+since we specified here , the output is in the text format (utf8);//
+
+
+
+//NPM package manager - node package manager
+open source package manager
+
+npm.js -> npm packages
+
+1. npm init - initialises the npm file and creates a json package
+2. npm install <>
+
+//ECMAscrpit modules - it uses import statement instead of using variables. We need to specify the "type" : "module", in the key value pair in the json file 
+
+$$$$$  QR CODE GENERATOR $$$$$
+
+#Packages:
+1.Inquirer.js
+2.qr-image
+//npm init-y
+
+
+
+
+
+
+
+

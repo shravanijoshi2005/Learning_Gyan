@@ -3,3 +3,5 @@ dir - list working directory
 dir /a - list items in wd along with hidden files
 cls - clear screen
 echo - create new file
+whenever u want to cd into a file whose name is written in spaces ex. 2.1 Using Node, 
+cd by putting the name in double quotes
